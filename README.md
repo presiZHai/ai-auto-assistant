@@ -2,6 +2,8 @@
 
 This project is a voice-based AI agent designed for a car dealership. The AI agent can interact with users via voice commands, respond using natural language, and provide continuous speech-to-speech conversations. The system uses Google Cloud's Speech-to-Text and Text-to-Speech services, OpenAI's GPT-3.5-turbo for generating responses, and Streamlit for the user interface.
 
+![AI Voice Assistant for Car Dealership](images/ai_assistant.webp)
+
 ## Table of Contents
 * **Features**
 * **Prerequisites**
@@ -73,6 +75,10 @@ Create a .env file in the project root directory with the following content:
 2. Start or Stop the Conversation
 
 * Click the "Start/Stop Conversation" button to begin or end the voice interaction.
+
+![AI Voice Assistant Example](images/voice-agent.png)
+
+
 
 ## Project Structure
 
