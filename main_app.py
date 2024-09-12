@@ -61,7 +61,7 @@ while st.session_state.active:
         # Check if AI should respond
         if turn_taking_model.should_respond(transcription, 0.5):  # Assume 0.5s silence
             # Show visual indicator when AI is responding
-            st.image("sound_wave.gif")  # Use your animated GIF file
+            st.image("images/sound_wave.gif")  # Use your animated GIF file
 
             response = llm_module.generate_response(transcription)
             st.write(f"AI: {response}")
