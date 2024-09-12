@@ -1,0 +1,15 @@
+streamlit
+scipy
+sounddevice
+pydub
+python-dotenv
+numpy==1.26.0
+openai==0.28
+transformers
+torch
+requests
+ffmpeg
+google-cloud-speech
+google-cloud-texttospeech
+soundfile
+streamlit-autorefresh
